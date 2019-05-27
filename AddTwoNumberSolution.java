@@ -11,6 +11,7 @@ public class AddTwoNumberSolution {
 		list2.next = new ListNode(6);
 		list2.next.next = new ListNode(4);
 		
+		// Depends on the input, the output might need to change if the input is changed
 		System.out.println("  List1: [" + list1.val + "," + list1.next.val + "," + list1.next.next.val + "]");
 		System.out.println("+ List2: [" + list2.val + "," + list2.next.val + "," + list2.next.next.val + "]");
 		
