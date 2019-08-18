@@ -1,4 +1,4 @@
-package addTwoNumber;
+package addingTwo;
 
 public class ListNode {
 	int val;
