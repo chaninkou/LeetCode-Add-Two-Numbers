@@ -15,7 +15,8 @@ public class SumTwoLinkedListFunction {
 		int sum = 0;
 		
 		while(l1 != null && l2 != null){
-			// sum will be 0 or 1 depend if it is over 10 since over 10 means there is a carry 
+			// sum will be 0 or 1 depend if it is over 10 since over 10 means there is a carry
+			// Since sum will be 1-18
 			sum = sum / 10;
 			
 			// In case both linked list is not same length
