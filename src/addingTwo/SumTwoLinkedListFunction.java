@@ -9,24 +9,31 @@ public class SumTwoLinkedListFunction {
 		// solution.next will be the sum of two linked list
 		ListNode solution = new ListNode(0);
 		
-		// Make a new pointer of solution
+		// Make a new pointer of solution, head just a pointer that we will move
 		ListNode head = solution;
 		
 		int sum = 0;
 		
 		while(l1 != null && l2 != null){
 			// sum will be 0 or 1 depend if it is over 10 since over 10 means there is a carry
-			// Since sum will be 1-18
+			// Since sum will be 1-18, basically this is the carry over
 			sum = sum / 10;
 			
 			// In case both linked list is not same length
 			if(l1 != null){
+				// Update the sum
 				sum = sum + l1.val;
+				
+				// Update the pointer
 				l1 = l1.next;
 			}
 			
+			// Checking second linked list now
 			if(l2 != null){
+				// update the sum
 				sum = sum + l2.val;
+				
+				// Update the pointer
 				l2 = l2.next;
 			}
 			
