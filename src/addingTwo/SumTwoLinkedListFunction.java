@@ -16,6 +16,7 @@ public class SumTwoLinkedListFunction {
 		
 		while(l1 != null && l2 != null){
 			// sum will be 0 or 1 depend if it is over 10 since over 10 means there is a carry
+			// Integer will only take the integer part and not decimal
 			// Since sum will be 1-18, basically this is the carry over
 			sum = sum / 10;
 			
@@ -51,7 +52,7 @@ public class SumTwoLinkedListFunction {
 			head.next = new ListNode(1);
 		}
 		
-		// Since we never moved solution pointer, solution.next will be the beginning of the solution
+		// Solution pointer is a pointer to keep track where the linked list start, solution.next will be the beginning of the solution
 		return solution.next;
 	}
 }
