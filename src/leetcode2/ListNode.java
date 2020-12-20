@@ -1,4 +1,4 @@
-package addingTwo;
+package leetcode2;
 
 public class ListNode {
 	int val;

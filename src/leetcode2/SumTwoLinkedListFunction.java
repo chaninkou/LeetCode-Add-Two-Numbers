@@ -1,4 +1,4 @@
-package addingTwo;
+package leetcode2;
 
 public class SumTwoLinkedListFunction {
 	public ListNode addTwoNumbers(ListNode list1, ListNode list2) {
